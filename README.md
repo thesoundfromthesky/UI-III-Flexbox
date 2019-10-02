@@ -1,3 +1,18 @@
+# Credit for Image used inside stretch.html
+
+https://ansimuz.itch.io/cyberpunk-street-environment
+
+Artwork created by Luis Zuno (@ansimuz)
+
+License for Everyone. This piece is under a CC-BY-3.0 License http://creativecommons.org/licenses/by/3.0/
+
+You can copy, modify, distribute and perform the work, even for commercial purposes, as long as you give appropiate credit. 
+
+You are not require to credit this work if you are or had been a Patreon Supporter at https://www.patreon.com/ansimuz
+
+Thanks get more like these at: https://www.patreon.com/ansimuz
+
+
 # User Interface Project III: Great Idea Web Page With Flexbox
 
 Now that you have experienced building a layout using `inline-block`.  Lets revisit the same HTML structure and refactor our first page with flex box module.  If you didn't finish yesterday's assignment, just start from scratch or use the solution code provided to you.

@@ -1,0 +1,55 @@
+.container {
+  position: relative;
+  top: 0;
+  height: 150vh;
+  /* display: none; */
+}
+.scene {
+  position: relative;
+  z-index: -10;
+  perspective: 2px;
+  height: 150vh;
+  transform-style: preserve-3d;
+}
+
+.scene > div {
+  padding-top: 45%;
+}
+.test {
+  position: absolute;
+  left: 50%;
+  font-size: 30px;
+  z-index: 1;
+}
+.far-buildings {
+  position: absolute;
+  width: 100%;
+  background-image: url(../assets/img/far-buildings.png);
+  background-repeat: repeat-x;
+  background-size: 50%;
+  background-position: left bottom;
+  transform: translateZ(-1px) scale(1.5);
+  z-index: -9;
+}
+
+.back-buildings {
+  width: 100%;
+  position: absolute;
+  background-image: url(../assets/img/back-buildings.png);
+  background-repeat: repeat-x;
+  background-size: 50%;
+  background-position: left bottom;
+  transform: translateZ(-0.5px) scale(1.25);
+  z-index: -8;
+}
+
+.foreground {
+  width: 100%;
+  position: absolute;
+  background-image: url(../assets/img/foreground.png);
+  background-repeat: repeat-x;
+  background-size: 50%;
+  background-position: left bottom;
+  transform: translateZ(0);
+  z-index: -7;
+}
